@@ -17,15 +17,22 @@ class InterfaceController: WKInterfaceController {
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
         
-        table.setNumberOfRows(3, withRowType: "tableRowController")
+        let familyMembers = ["Jernej", "Tanja", "Žan"]
         
-        let row = table.rowControllerAtIndex(0) as! tableRowController
-        
-        row.rowLabel.setText("Label Text")
+        table.setNumberOfRows(familyMembers.count, withRowType: "tableRowController")
         
         
+
+        for (index, familyMemberName) in familyMembers.enumerate() {
         
+            let row = table.rowControllerAtIndex(index) as! tableRowController
+
+            row.rowLabel.setText(familyMemberName)
+    
+        }
         
+
+
         // Configure interface objects here.
     }
 
