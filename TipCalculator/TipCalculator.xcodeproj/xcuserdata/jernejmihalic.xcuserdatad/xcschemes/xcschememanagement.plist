@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Notification - TipCalculator WatchKit App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>TipCalculator WatchKit App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>TipCalculator.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -18,6 +28,11 @@
 			<true/>
 		</dict>
 		<key>5559A8051B610E07005EADAC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5559A8261B610E10005EADAC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
