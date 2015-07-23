@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>377E0E4C-2C88-4713-A364-A3F2278D4755</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Tables_2</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0CB35B84F7AAE3AF48AA91D8DA8783CCA9BC6D20</key>
+		<string>https://github.com/jernej99/WatchOS_Tutorial_Swift_Udemy_Rob_Percival.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Tables_2.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0CB35B84F7AAE3AF48AA91D8DA8783CCA9BC6D20</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/jernej99/WatchOS_Tutorial_Swift_Udemy_Rob_Percival.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0CB35B84F7AAE3AF48AA91D8DA8783CCA9BC6D20</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0CB35B84F7AAE3AF48AA91D8DA8783CCA9BC6D20</string>
+			<key>IDESourceControlWCCName</key>
+			<string>WatchOS_Tutorial_Swift_Udemy_Rob_Percival</string>
+		</dict>
+	</array>
+</dict>
+</plist>
