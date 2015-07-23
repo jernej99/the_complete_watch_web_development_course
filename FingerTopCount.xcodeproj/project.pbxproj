@@ -13,6 +13,16 @@
 		5559A7A41B60E9D3005EADAC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5559A7A31B60E9D3005EADAC /* Images.xcassets */; };
 		5559A7A71B60E9D3005EADAC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5559A7A51B60E9D3005EADAC /* LaunchScreen.xib */; };
 		5559A7B31B60E9D3005EADAC /* FingerTopCountTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5559A7B21B60E9D3005EADAC /* FingerTopCountTests.swift */; };
+		5559A7C61B60EA18005EADAC /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5559A7C51B60EA18005EADAC /* InterfaceController.swift */; };
+		5559A7C81B60EA18005EADAC /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5559A7C71B60EA18005EADAC /* NotificationController.swift */; };
+		5559A7CA1B60EA18005EADAC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5559A7C91B60EA18005EADAC /* Images.xcassets */; };
+		5559A7CE1B60EA18005EADAC /* FingerTopCount WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 5559A7CD1B60EA18005EADAC /* FingerTopCount WatchKit App.app */; };
+		5559A7D61B60EA18005EADAC /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5559A7D41B60EA18005EADAC /* Interface.storyboard */; };
+		5559A7D81B60EA18005EADAC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5559A7D71B60EA18005EADAC /* Images.xcassets */; };
+		5559A7DB1B60EA18005EADAC /* FingerTopCount WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 5559A7C01B60EA18005EADAC /* FingerTopCount WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5559A7E41B60EB90005EADAC /* pointing_finger.png in Resources */ = {isa = PBXBuildFile; fileRef = 5559A7E31B60EB90005EADAC /* pointing_finger.png */; };
+		5559A7E51B60EB90005EADAC /* pointing_finger.png in Resources */ = {isa = PBXBuildFile; fileRef = 5559A7E31B60EB90005EADAC /* pointing_finger.png */; };
+		5559A7E61B60EB90005EADAC /* pointing_finger.png in Resources */ = {isa = PBXBuildFile; fileRef = 5559A7E31B60EB90005EADAC /* pointing_finger.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,7 +33,35 @@
 			remoteGlobalIDString = 5559A7961B60E9D3005EADAC;
 			remoteInfo = FingerTopCount;
 		};
+		5559A7CF1B60EA18005EADAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5559A78F1B60E9D3005EADAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5559A7CC1B60EA18005EADAC;
+			remoteInfo = "FingerTopCount WatchKit App";
+		};
+		5559A7D91B60EA18005EADAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5559A78F1B60E9D3005EADAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5559A7BF1B60EA18005EADAC;
+			remoteInfo = "FingerTopCount WatchKit Extension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5559A7E21B60EA18005EADAC /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5559A7DB1B60EA18005EADAC /* FingerTopCount WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		5559A7971B60E9D3005EADAC /* FingerTopCount.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FingerTopCount.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +74,18 @@
 		5559A7AC1B60E9D3005EADAC /* FingerTopCountTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FingerTopCountTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5559A7B11B60E9D3005EADAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5559A7B21B60E9D3005EADAC /* FingerTopCountTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FingerTopCountTests.swift; sourceTree = "<group>"; };
+		5559A7C01B60EA18005EADAC /* FingerTopCount WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "FingerTopCount WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5559A7C31B60EA18005EADAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5559A7C41B60EA18005EADAC /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		5559A7C51B60EA18005EADAC /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		5559A7C71B60EA18005EADAC /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		5559A7C91B60EA18005EADAC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5559A7CD1B60EA18005EADAC /* FingerTopCount WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FingerTopCount WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5559A7D31B60EA18005EADAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5559A7D51B60EA18005EADAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		5559A7D71B60EA18005EADAC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5559A7E31B60EB90005EADAC /* pointing_finger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pointing_finger.png; sourceTree = "<group>"; };
+		5559A7E71B61070D005EADAC /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = MyPlayground.playground; path = "FingerTopCount WatchKit App/MyPlayground.playground"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,14 +103,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5559A7BD1B60EA18005EADAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		5559A78E1B60E9D3005EADAC = {
 			isa = PBXGroup;
 			children = (
+				5559A7E71B61070D005EADAC /* MyPlayground.playground */,
 				5559A7991B60E9D3005EADAC /* FingerTopCount */,
 				5559A7AF1B60E9D3005EADAC /* FingerTopCountTests */,
+				5559A7C11B60EA18005EADAC /* FingerTopCount WatchKit Extension */,
+				5559A7D11B60EA18005EADAC /* FingerTopCount WatchKit App */,
 				5559A7981B60E9D3005EADAC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +130,8 @@
 			children = (
 				5559A7971B60E9D3005EADAC /* FingerTopCount.app */,
 				5559A7AC1B60E9D3005EADAC /* FingerTopCountTests.xctest */,
+				5559A7C01B60EA18005EADAC /* FingerTopCount WatchKit Extension.appex */,
+				5559A7CD1B60EA18005EADAC /* FingerTopCount WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,6 +174,45 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		5559A7C11B60EA18005EADAC /* FingerTopCount WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5559A7C51B60EA18005EADAC /* InterfaceController.swift */,
+				5559A7C71B60EA18005EADAC /* NotificationController.swift */,
+				5559A7C91B60EA18005EADAC /* Images.xcassets */,
+				5559A7E31B60EB90005EADAC /* pointing_finger.png */,
+				5559A7C21B60EA18005EADAC /* Supporting Files */,
+			);
+			path = "FingerTopCount WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		5559A7C21B60EA18005EADAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5559A7C31B60EA18005EADAC /* Info.plist */,
+				5559A7C41B60EA18005EADAC /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5559A7D11B60EA18005EADAC /* FingerTopCount WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				5559A7D41B60EA18005EADAC /* Interface.storyboard */,
+				5559A7D71B60EA18005EADAC /* Images.xcassets */,
+				5559A7D21B60EA18005EADAC /* Supporting Files */,
+			);
+			path = "FingerTopCount WatchKit App";
+			sourceTree = "<group>";
+		};
+		5559A7D21B60EA18005EADAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5559A7D31B60EA18005EADAC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,10 +223,12 @@
 				5559A7931B60E9D3005EADAC /* Sources */,
 				5559A7941B60E9D3005EADAC /* Frameworks */,
 				5559A7951B60E9D3005EADAC /* Resources */,
+				5559A7E21B60EA18005EADAC /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				5559A7DA1B60EA18005EADAC /* PBXTargetDependency */,
 			);
 			name = FingerTopCount;
 			productName = FingerTopCount;
@@ -150,6 +253,39 @@
 			productReference = 5559A7AC1B60E9D3005EADAC /* FingerTopCountTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		5559A7BF1B60EA18005EADAC /* FingerTopCount WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5559A7DF1B60EA18005EADAC /* Build configuration list for PBXNativeTarget "FingerTopCount WatchKit Extension" */;
+			buildPhases = (
+				5559A7BC1B60EA18005EADAC /* Sources */,
+				5559A7BD1B60EA18005EADAC /* Frameworks */,
+				5559A7BE1B60EA18005EADAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5559A7D01B60EA18005EADAC /* PBXTargetDependency */,
+			);
+			name = "FingerTopCount WatchKit Extension";
+			productName = "FingerTopCount WatchKit Extension";
+			productReference = 5559A7C01B60EA18005EADAC /* FingerTopCount WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		5559A7CC1B60EA18005EADAC /* FingerTopCount WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5559A7DC1B60EA18005EADAC /* Build configuration list for PBXNativeTarget "FingerTopCount WatchKit App" */;
+			buildPhases = (
+				5559A7CB1B60EA18005EADAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FingerTopCount WatchKit App";
+			productName = "FingerTopCount WatchKit App";
+			productReference = 5559A7CD1B60EA18005EADAC /* FingerTopCount WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -165,6 +301,12 @@
 					5559A7AB1B60E9D3005EADAC = {
 						CreatedOnToolsVersion = 6.4;
 						TestTargetID = 5559A7961B60E9D3005EADAC;
+					};
+					5559A7BF1B60EA18005EADAC = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					5559A7CC1B60EA18005EADAC = {
+						CreatedOnToolsVersion = 6.4;
 					};
 				};
 			};
@@ -183,6 +325,8 @@
 			targets = (
 				5559A7961B60E9D3005EADAC /* FingerTopCount */,
 				5559A7AB1B60E9D3005EADAC /* FingerTopCountTests */,
+				5559A7BF1B60EA18005EADAC /* FingerTopCount WatchKit Extension */,
+				5559A7CC1B60EA18005EADAC /* FingerTopCount WatchKit App */,
 			);
 		};
 /* End PBXProject section */
@@ -192,6 +336,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5559A7E41B60EB90005EADAC /* pointing_finger.png in Resources */,
 				5559A7A21B60E9D3005EADAC /* Main.storyboard in Resources */,
 				5559A7A71B60E9D3005EADAC /* LaunchScreen.xib in Resources */,
 				5559A7A41B60E9D3005EADAC /* Images.xcassets in Resources */,
@@ -202,6 +347,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5559A7BE1B60EA18005EADAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5559A7E51B60EB90005EADAC /* pointing_finger.png in Resources */,
+				5559A7CA1B60EA18005EADAC /* Images.xcassets in Resources */,
+				5559A7CE1B60EA18005EADAC /* FingerTopCount WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5559A7CB1B60EA18005EADAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5559A7E61B60EB90005EADAC /* pointing_finger.png in Resources */,
+				5559A7D61B60EA18005EADAC /* Interface.storyboard in Resources */,
+				5559A7D81B60EA18005EADAC /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +390,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5559A7BC1B60EA18005EADAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5559A7C81B60EA18005EADAC /* NotificationController.swift in Sources */,
+				5559A7C61B60EA18005EADAC /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -232,6 +406,16 @@
 			isa = PBXTargetDependency;
 			target = 5559A7961B60E9D3005EADAC /* FingerTopCount */;
 			targetProxy = 5559A7AD1B60E9D3005EADAC /* PBXContainerItemProxy */;
+		};
+		5559A7D01B60EA18005EADAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5559A7CC1B60EA18005EADAC /* FingerTopCount WatchKit App */;
+			targetProxy = 5559A7CF1B60EA18005EADAC /* PBXContainerItemProxy */;
+		};
+		5559A7DA1B60EA18005EADAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5559A7BF1B60EA18005EADAC /* FingerTopCount WatchKit Extension */;
+			targetProxy = 5559A7D91B60EA18005EADAC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -250,6 +434,14 @@
 				5559A7A61B60E9D3005EADAC /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		5559A7D41B60EA18005EADAC /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5559A7D51B60EA18005EADAC /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -390,6 +582,62 @@
 			};
 			name = Release;
 		};
+		5559A7DD1B60EA18005EADAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = FingerTopCount_WatchKit_Extension;
+				INFOPLIST_FILE = "FingerTopCount WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		5559A7DE1B60EA18005EADAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = FingerTopCount_WatchKit_Extension;
+				INFOPLIST_FILE = "FingerTopCount WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		5559A7E01B60EA18005EADAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FingerTopCount WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5559A7E11B60EA18005EADAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "FingerTopCount WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -415,6 +663,22 @@
 			buildConfigurations = (
 				5559A7BA1B60E9D3005EADAC /* Debug */,
 				5559A7BB1B60E9D3005EADAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5559A7DC1B60EA18005EADAC /* Build configuration list for PBXNativeTarget "FingerTopCount WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5559A7DD1B60EA18005EADAC /* Debug */,
+				5559A7DE1B60EA18005EADAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5559A7DF1B60EA18005EADAC /* Build configuration list for PBXNativeTarget "FingerTopCount WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5559A7E01B60EA18005EADAC /* Debug */,
+				5559A7E11B60EA18005EADAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
