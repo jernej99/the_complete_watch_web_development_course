@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="7701"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="EggTimer_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <group width="1" alignment="left" id="Rht-4U-1YC">
+                            <items>
+                                <imageView width="40" height="40" alignment="left" image="eggtimer.png" id="PAu-G1-623"/>
+                                <label alignment="center" verticalAlignment="center" text="Egg Timer" textAlignment="center" id="jzo-1x-S1T"/>
+                            </items>
+                        </group>
+                        <timer width="136" alignment="center" textAlignment="center" format="short" id="osZ-ii-896">
+                            <calendarUnit key="units" minute="YES" second="YES"/>
+                        </timer>
+                        <button width="1" height="24" alignment="left" title="Soft" id="Cud-aV-M9b">
+                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="softButtonPressed" destination="AgC-eL-Hgc" id="qid-pj-uqt"/>
+                            </connections>
+                        </button>
+                        <button width="1" height="24" alignment="left" title="Medium" id="IeI-gF-zQW">
+                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="backgroundColor" red="1" green="0.88734519716179805" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="mediumButtonPressed" destination="AgC-eL-Hgc" id="PKq-N7-ReP"/>
+                            </connections>
+                        </button>
+                        <button width="1" height="24" alignment="left" title="Hard Boiled" id="KnK-KT-ovx">
+                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="backgroundColor" red="1" green="0.55893411640512414" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="hardButtonPressed" destination="AgC-eL-Hgc" id="6QA-fP-0lF"/>
+                            </connections>
+                        </button>
+                        <button width="1" height="24" alignment="left" title="Reset" id="GLm-Zw-h5L">
+                            <color key="titleColor" red="0.1413643906" green="0.1962092175" blue="0.30042177440000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="backgroundColor" red="0.33960114323645352" green="1" blue="0.92992379253848467" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="resetButtonPressed" destination="AgC-eL-Hgc" id="ms2-wP-Z44"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="buttonHard" destination="KnK-KT-ovx" id="2mC-Mm-YAG"/>
+                        <outlet property="buttonMedium" destination="IeI-gF-zQW" id="EXc-c6-xED"/>
+                        <outlet property="buttonReset" destination="GLm-Zw-h5L" id="fXR-Ti-UiK"/>
+                        <outlet property="buttonSoft" destination="Cud-aV-M9b" id="bQu-iH-arP"/>
+                        <outlet property="countDown" destination="osZ-ii-896" id="js5-Sz-CJN"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="220" y="345"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="AEw-b0-oYE">
+            <objects>
+                <notificationController id="YCC-NB-fut">
+                    <items>
+                        <label alignment="left" text="Alert Label" id="IdU-wH-bcW"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="IdU-wH-bcW" id="JKC-fr-R95"/>
+                        <segue destination="4sK-HA-Art" kind="relationship" relationship="dynamicNotificationInterface" id="kXh-Jw-8B1"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="220" y="643"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="ZPc-GJ-vnh">
+            <objects>
+                <controller id="4sK-HA-Art" customClass="NotificationController" customModule="EggTimer_WatchKit_App" customModuleProvider="target"/>
+            </objects>
+            <point key="canvasLocation" x="468" y="643"/>
+        </scene>
+    </scenes>
+</document>

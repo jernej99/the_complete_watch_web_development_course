@@ -13,6 +13,16 @@
 		5559A9011B627559005EADAC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5559A9001B627559005EADAC /* Images.xcassets */; };
 		5559A9041B627559005EADAC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5559A9021B627559005EADAC /* LaunchScreen.xib */; };
 		5559A9101B627559005EADAC /* EggTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5559A90F1B627559005EADAC /* EggTimerTests.swift */; };
+		5559A9231B627637005EADAC /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5559A9221B627637005EADAC /* InterfaceController.swift */; };
+		5559A9251B627637005EADAC /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5559A9241B627637005EADAC /* NotificationController.swift */; };
+		5559A9271B627637005EADAC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5559A9261B627637005EADAC /* Images.xcassets */; };
+		5559A92B1B627638005EADAC /* EggTimer WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 5559A92A1B627638005EADAC /* EggTimer WatchKit App.app */; };
+		5559A9331B627638005EADAC /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5559A9311B627638005EADAC /* Interface.storyboard */; };
+		5559A9351B627638005EADAC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5559A9341B627638005EADAC /* Images.xcassets */; };
+		5559A9381B627638005EADAC /* EggTimer WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 5559A91D1B627637005EADAC /* EggTimer WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5559A9411B62764C005EADAC /* eggtimer.png in Resources */ = {isa = PBXBuildFile; fileRef = 5559A9401B62764C005EADAC /* eggtimer.png */; };
+		5559A9421B62764C005EADAC /* eggtimer.png in Resources */ = {isa = PBXBuildFile; fileRef = 5559A9401B62764C005EADAC /* eggtimer.png */; };
+		5559A9431B62764C005EADAC /* eggtimer.png in Resources */ = {isa = PBXBuildFile; fileRef = 5559A9401B62764C005EADAC /* eggtimer.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,7 +33,35 @@
 			remoteGlobalIDString = 5559A8F31B627559005EADAC;
 			remoteInfo = EggTimer;
 		};
+		5559A92C1B627638005EADAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5559A8EC1B627559005EADAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5559A9291B627638005EADAC;
+			remoteInfo = "EggTimer WatchKit App";
+		};
+		5559A9361B627638005EADAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5559A8EC1B627559005EADAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5559A91C1B627637005EADAC;
+			remoteInfo = "EggTimer WatchKit Extension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5559A93F1B627638005EADAC /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5559A9381B627638005EADAC /* EggTimer WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		5559A8F41B627559005EADAC /* EggTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EggTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +74,17 @@
 		5559A9091B627559005EADAC /* EggTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EggTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5559A90E1B627559005EADAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5559A90F1B627559005EADAC /* EggTimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggTimerTests.swift; sourceTree = "<group>"; };
+		5559A91D1B627637005EADAC /* EggTimer WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "EggTimer WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5559A9201B627637005EADAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5559A9211B627637005EADAC /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		5559A9221B627637005EADAC /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		5559A9241B627637005EADAC /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		5559A9261B627637005EADAC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5559A92A1B627638005EADAC /* EggTimer WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EggTimer WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5559A9301B627638005EADAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5559A9321B627638005EADAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		5559A9341B627638005EADAC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5559A9401B62764C005EADAC /* eggtimer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eggtimer.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +102,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5559A91A1B627637005EADAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -61,6 +117,8 @@
 			children = (
 				5559A8F61B627559005EADAC /* EggTimer */,
 				5559A90C1B627559005EADAC /* EggTimerTests */,
+				5559A91E1B627637005EADAC /* EggTimer WatchKit Extension */,
+				5559A92E1B627638005EADAC /* EggTimer WatchKit App */,
 				5559A8F51B627559005EADAC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +128,8 @@
 			children = (
 				5559A8F41B627559005EADAC /* EggTimer.app */,
 				5559A9091B627559005EADAC /* EggTimerTests.xctest */,
+				5559A91D1B627637005EADAC /* EggTimer WatchKit Extension.appex */,
+				5559A92A1B627638005EADAC /* EggTimer WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -77,6 +137,7 @@
 		5559A8F61B627559005EADAC /* EggTimer */ = {
 			isa = PBXGroup;
 			children = (
+				5559A9401B62764C005EADAC /* eggtimer.png */,
 				5559A8F91B627559005EADAC /* AppDelegate.swift */,
 				5559A8FB1B627559005EADAC /* ViewController.swift */,
 				5559A8FD1B627559005EADAC /* Main.storyboard */,
@@ -112,6 +173,44 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		5559A91E1B627637005EADAC /* EggTimer WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5559A9221B627637005EADAC /* InterfaceController.swift */,
+				5559A9241B627637005EADAC /* NotificationController.swift */,
+				5559A9261B627637005EADAC /* Images.xcassets */,
+				5559A91F1B627637005EADAC /* Supporting Files */,
+			);
+			path = "EggTimer WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		5559A91F1B627637005EADAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5559A9201B627637005EADAC /* Info.plist */,
+				5559A9211B627637005EADAC /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5559A92E1B627638005EADAC /* EggTimer WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				5559A9311B627638005EADAC /* Interface.storyboard */,
+				5559A9341B627638005EADAC /* Images.xcassets */,
+				5559A92F1B627638005EADAC /* Supporting Files */,
+			);
+			path = "EggTimer WatchKit App";
+			sourceTree = "<group>";
+		};
+		5559A92F1B627638005EADAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5559A9301B627638005EADAC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,10 +221,12 @@
 				5559A8F01B627559005EADAC /* Sources */,
 				5559A8F11B627559005EADAC /* Frameworks */,
 				5559A8F21B627559005EADAC /* Resources */,
+				5559A93F1B627638005EADAC /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				5559A9371B627638005EADAC /* PBXTargetDependency */,
 			);
 			name = EggTimer;
 			productName = EggTimer;
@@ -150,6 +251,39 @@
 			productReference = 5559A9091B627559005EADAC /* EggTimerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		5559A91C1B627637005EADAC /* EggTimer WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5559A93C1B627638005EADAC /* Build configuration list for PBXNativeTarget "EggTimer WatchKit Extension" */;
+			buildPhases = (
+				5559A9191B627637005EADAC /* Sources */,
+				5559A91A1B627637005EADAC /* Frameworks */,
+				5559A91B1B627637005EADAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5559A92D1B627638005EADAC /* PBXTargetDependency */,
+			);
+			name = "EggTimer WatchKit Extension";
+			productName = "EggTimer WatchKit Extension";
+			productReference = 5559A91D1B627637005EADAC /* EggTimer WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		5559A9291B627638005EADAC /* EggTimer WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5559A9391B627638005EADAC /* Build configuration list for PBXNativeTarget "EggTimer WatchKit App" */;
+			buildPhases = (
+				5559A9281B627638005EADAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EggTimer WatchKit App";
+			productName = "EggTimer WatchKit App";
+			productReference = 5559A92A1B627638005EADAC /* EggTimer WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -165,6 +299,12 @@
 					5559A9081B627559005EADAC = {
 						CreatedOnToolsVersion = 6.4;
 						TestTargetID = 5559A8F31B627559005EADAC;
+					};
+					5559A91C1B627637005EADAC = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					5559A9291B627638005EADAC = {
+						CreatedOnToolsVersion = 6.4;
 					};
 				};
 			};
@@ -183,6 +323,8 @@
 			targets = (
 				5559A8F31B627559005EADAC /* EggTimer */,
 				5559A9081B627559005EADAC /* EggTimerTests */,
+				5559A91C1B627637005EADAC /* EggTimer WatchKit Extension */,
+				5559A9291B627638005EADAC /* EggTimer WatchKit App */,
 			);
 		};
 /* End PBXProject section */
@@ -195,6 +337,7 @@
 				5559A8FF1B627559005EADAC /* Main.storyboard in Resources */,
 				5559A9041B627559005EADAC /* LaunchScreen.xib in Resources */,
 				5559A9011B627559005EADAC /* Images.xcassets in Resources */,
+				5559A9411B62764C005EADAC /* eggtimer.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +345,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5559A91B1B627637005EADAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5559A9421B62764C005EADAC /* eggtimer.png in Resources */,
+				5559A92B1B627638005EADAC /* EggTimer WatchKit App.app in Resources */,
+				5559A9271B627637005EADAC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5559A9281B627638005EADAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5559A9431B62764C005EADAC /* eggtimer.png in Resources */,
+				5559A9331B627638005EADAC /* Interface.storyboard in Resources */,
+				5559A9351B627638005EADAC /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +388,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5559A9191B627637005EADAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5559A9251B627637005EADAC /* NotificationController.swift in Sources */,
+				5559A9231B627637005EADAC /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -232,6 +404,16 @@
 			isa = PBXTargetDependency;
 			target = 5559A8F31B627559005EADAC /* EggTimer */;
 			targetProxy = 5559A90A1B627559005EADAC /* PBXContainerItemProxy */;
+		};
+		5559A92D1B627638005EADAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5559A9291B627638005EADAC /* EggTimer WatchKit App */;
+			targetProxy = 5559A92C1B627638005EADAC /* PBXContainerItemProxy */;
+		};
+		5559A9371B627638005EADAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5559A91C1B627637005EADAC /* EggTimer WatchKit Extension */;
+			targetProxy = 5559A9361B627638005EADAC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -250,6 +432,14 @@
 				5559A9031B627559005EADAC /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		5559A9311B627638005EADAC /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5559A9321B627638005EADAC /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -390,6 +580,62 @@
 			};
 			name = Release;
 		};
+		5559A93A1B627638005EADAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = EggTimer_WatchKit_Extension;
+				INFOPLIST_FILE = "EggTimer WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		5559A93B1B627638005EADAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = EggTimer_WatchKit_Extension;
+				INFOPLIST_FILE = "EggTimer WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		5559A93D1B627638005EADAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "EggTimer WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5559A93E1B627638005EADAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "EggTimer WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -415,6 +661,22 @@
 			buildConfigurations = (
 				5559A9171B62755A005EADAC /* Debug */,
 				5559A9181B62755A005EADAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5559A9391B627638005EADAC /* Build configuration list for PBXNativeTarget "EggTimer WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5559A93A1B627638005EADAC /* Debug */,
+				5559A93B1B627638005EADAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5559A93C1B627638005EADAC /* Build configuration list for PBXNativeTarget "EggTimer WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5559A93D1B627638005EADAC /* Debug */,
+				5559A93E1B627638005EADAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
