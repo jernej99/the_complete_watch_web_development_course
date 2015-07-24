@@ -40,12 +40,6 @@ class InterfaceController: WKInterfaceController {
     func imputAmountLabelFunc() {
         
         imputAmountLabel.setText(String(format: "$%.0f", billAmount ))
-        updateTipAmount()
-        
-    }
-    
-    func updateTipAmount() {
-        
         tip15.setText("15% = $\(billAmount * 15 / 100)")
         tip18.setText("18% = $\(billAmount * 18 / 100)")
         tip20.setText("20% = $\(billAmount * 20 / 100)")
